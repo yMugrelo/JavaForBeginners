@@ -15,7 +15,7 @@ class Gen<T>{
         return ob;
     }
 
-    //Exibe o tipo de T
+    //Exibe o tipo de <T>
     void ShowType(){
         System.out.println("Type of t is " + ob.getClass().getName());
     }
