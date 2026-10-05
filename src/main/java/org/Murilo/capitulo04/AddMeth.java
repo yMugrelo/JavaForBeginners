@@ -1,11 +1,9 @@
-package org.Murilo.capitulo04.projetos;
-
-import org.Murilo.capitulo04.Vehicle;
+package org.Murilo.capitulo04;
 
 public class AddMeth {
     static void main(String[] args) {
-        Vehicle minivan = new Vehicle();
-        Vehicle sportscar = new Vehicle();
+        Vehicle minivan = new Vehicle(7, 16, 21);
+        Vehicle sportscar = new Vehicle(2, 16, 12);
 
         int range1, range2;
 
