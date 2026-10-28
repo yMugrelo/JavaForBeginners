@@ -1,4 +1,6 @@
 package org.Murilo.padraoprojeto;
-interface Command{
 
+interface Command{
+    void execute();
+    void undo();
 }
